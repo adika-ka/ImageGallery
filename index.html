@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./scss/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <h1 class="header-content__title">Image Gallery blya</h1>
+          <div class="header-content__search">
+            <input
+              class="header-content__search"
+              id="search"
+              autocomplete="off"
+              placeholder="Search images"
+              type="text"
+            />
+            <button class="search__btn btn-before"></button>
+            <button class="search__btn btn-after"></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="gallery">
+        <ul class="images" id="image-gallery">
+          <li class="card"></li>
+          <li class="card"></li>
+          <li class="card"></li>
+          <li class="card"></li>
+          <li class="card"></li>
+          <li class="card"></li>
+          <li class="card"></li>
+          <li class="card"></li>
+          <li class="card"></li>
+        </ul>
+        <!-- <button class="load-more">Load More</button> -->
+      </section>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
